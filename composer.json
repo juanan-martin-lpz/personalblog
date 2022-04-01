@@ -1,0 +1,15 @@
+{
+    "name": "juanmartin/blog",
+    "authors": [{
+        "name": "juanan-martin-lpz",
+        "email": "juanan.martin.lpz@gmail.com"
+    }],
+    "scripts": {
+        "serve": "php -S localhost:3210 -t ./src"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
